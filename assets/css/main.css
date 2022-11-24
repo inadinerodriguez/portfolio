@@ -166,6 +166,7 @@ input, select, textarea {
 	h1 {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
+		line-height: 50px;
 		font-weight: 300;
 	}
 
@@ -199,7 +200,7 @@ input, select, textarea {
 		height: 1px;
 		margin: 3em 0;
 	}
-
+	
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
@@ -1991,6 +1992,9 @@ input, select, textarea {
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
+	}
+	.wrapper .row p {
+		text-align: left;
 	}
 
 		.wrapper.style1 {
