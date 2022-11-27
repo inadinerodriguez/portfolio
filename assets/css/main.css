@@ -1514,7 +1514,7 @@ input, select, textarea {
 
 /* Tables */
 
-	table {
+	/* table {
 		width: 100%;
 	}
 
@@ -1544,7 +1544,7 @@ input, select, textarea {
 			table.default thead {
 				background: #4f4f4f;
 				color: #fff;
-			}
+			} */
 
 /* Section/Article */
 
