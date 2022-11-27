@@ -295,6 +295,7 @@ input, select, textarea {
 			box-sizing: border-box;
 		}
 
+		
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
 		}
@@ -417,6 +418,7 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+			flex-direction: column;
 		}
 
 		.row > .off-12 {
@@ -525,7 +527,7 @@ input, select, textarea {
 					padding-top: 50px;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -612,6 +614,7 @@ input, select, textarea {
 
 				.row > .col-6-xlarge {
 					width: 50%;
+					flex-direction: column;
 				}
 
 				.row > .off-6-xlarge {
@@ -767,6 +770,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 50px;
 						}
+				
 
 		}
 
@@ -1349,9 +1353,11 @@ input, select, textarea {
 					width: 50%;
 				}
 
+
 				.row > .off-6-small {
 					margin-left: 50%;
 				}
+
 
 				.row > .col-7-small {
 					width: 58.33333%;
@@ -1909,6 +1915,10 @@ input, select, textarea {
 			color: #fff;
 		}
 
+		.wrapper.style5 p {
+			text-align: center;
+		}
+
 		 .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6, .wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4 {
 				color: #fff;
 			}
@@ -2025,7 +2035,7 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		color: #666;
+		color: #F7E8E8;
 		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
@@ -2078,6 +2088,8 @@ input, select, textarea {
 				margin: 0 0 4em 0;
 			}
 
+			
+
 		/* Wrappers */
 
 			.wrapper {
@@ -2100,6 +2112,10 @@ input, select, textarea {
 					width: 24em;
 					height: 24em;
 					margin: 0;
+				}
+
+				#top h1 {
+					line-height: 1.5em;
 				}
 
 	}
@@ -2198,20 +2214,16 @@ input, select, textarea {
 		/* Social */
 
 			ul.social {
-				padding: 1em 0.5em 0 0.5em;
+				padding: 1em 0.2em 0 0.2em;
 			}
 
 				ul.social li {
-					margin: 0.5em 0.5em 0.5em 0.5em;
+					margin: 0.2em 0.2em 0.2em 0.2em;
 				}
 
 					ul.social li a {
 						top: 0 !important;
 					}
-
-						ul.social li a:before {
-							background-color: transparent !important;
-						}
 
 		/* Actions */
 
@@ -2221,7 +2233,7 @@ input, select, textarea {
 
 				ul.actions li {
 					display: block;
-					margin: 15px 0 0 0;
+					margin: 10px 0 0 0;
 				}
 
 					ul.actions li:first-child {
@@ -2271,6 +2283,7 @@ input, select, textarea {
 			}
 
 			
+			
 
 		/* Nav */
 
@@ -2315,6 +2328,7 @@ input, select, textarea {
 			#copyright {
 				font-size: 1em;
 				margin: 0;
+				padding-top: 2em;
 			}
 
 				#copyright li {
