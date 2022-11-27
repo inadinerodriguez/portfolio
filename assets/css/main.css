@@ -1635,7 +1635,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #B4C7D9;
+			background-color: #F7E8E8;
 			color: #152A3E !important;
 		}
 
@@ -1644,7 +1644,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #B4C7D9;
+			background-color: #F7E8E8;
 			color: #152A3E !important;
 			top: 1px;
 		}
@@ -1959,8 +1959,8 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: #fff !important;
-				background: #B4C7D9;
+				color: #152A3E !important;
+				background: #F7E8E8;
 			}
 
 			#nav a.active {
