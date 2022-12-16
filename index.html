@@ -2,261 +2,190 @@
 <html class="no-js" lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>Nadine Rodriguez Portfolio</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="manifest" href="site.webmanifest">
-	<link rel="apple-touch-icon" href="icon.png">
-
-	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="utf-8">
+  <title>Nadine Rodriguez Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lekton&family=Lexend+Tera&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/35630880d0.js" crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="is-preload">
+<body>
 
-	<!-- Nav -->
-	<nav id="nav">
-		<ul class="container">
-			<li><a href="#top">Top</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#skills">Skills</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
+<header>
+  <div class="content-wrapper">
+    <nav>
+      <ul> 
+        <li><a href="https://inadinerodriguez.com">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-	<!-- Home -->
+<main>
+  <section id="hero-area">
+    <div class="content-wrapper">
+      <div class="hero-content-wrapper">
+        <figure>
+          <img src="img/profile-pic.jpg" alt="nadine profile picture" id="main-img">
+        </figure>
+        <div class="main-text">
+          <h1>Hi. I'm <span>Nadine Rodriguez</span>, your next Front-End Software Developer!</h1>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<article id="top" class="wrapper style1">
-		<div class="container">
-			<div class="row">
-				<div class="col-4 col-5-large col-12-medium">
-					<span class="image fit"><img src="images/profile-pic.jpg" alt="nadine profile picture" />
-					</span>
-				</div>
-				<div class="col-8 col-7-large col-12-medium">
-					<header>
-						<h1>Hi. I'm <strong>Nadine Rodriguez</strong>, your next Front-End Software Developer!</h1>
-					</header>
+  <article class="portfolio">
+    <section id="projects">
+      <div class="content-wrapper">
+        <h2 class="portfolio-header">PORTFOLIO</h2>
+        <h3 class="portfolio-header">Here's some stuff I recently made.</h3>
+        <div class="portfolio-wrapper">
+          <div class="portfolio-item">
+            <figure>
+              <a class="portfolio-image" href="https://jyt0ov.csb.app/" target="_blank"><img src="img/stickynotesapp.jpg" alt="sticky notes app"></a>
+            </figure>
+            <h4>STICKY NOTES APP</h4>
+            <p class="project-description">An interactive app that will let users create “sticky notes” on their computer to keep track of to-do items. Uses multiple components to build the classic sticky note UI with the ability to add, edit, delete and search for notes.</p>
+            <p><span>SKILLS: </span>React, JSX, Components, Props, State</p>
+            <p><span>TOOLS: </span> CodeSandbox</p>
+            <a class="project-button" href="https://jyt0ov.csb.app/" target="_blank">LIVE PAGE</a>
+          </div>
 
-				</div>
-			</div>
-		</div>
-	</article>
+          <div class="portfolio-item">
+            <figure>
+              <a class="portfolio-image" href="https://inadinerodriguez.github.io/github-repo-gallery/ " target="_blank"><img src="img/githubrepo.jpg" alt="github repos gallery"></a>
+            </figure>
+            <h4>GITHUB REPO GALLERY</h4>
+            <p class="project-description">Uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos.
+              Visitors to the site can click on the repos to see more details and a link to the repo.</p>
+            <p><span>SKILLS: </span>JavaScript</p>
+            <p><span>TOOLS: </span> RestAPI, GitHub Pages</p>
+            <a class="project-button" href="https://inadinerodriguez.github.io/github-repo-gallery/" target="_blank">LIVE PAGE</a>
+          </div>
 
-	<!-- Portfolio -->
-	<article id="portfolio" class="wrapper style3">
-		<div class="container">
-			<header>
-				<h2>PORTFOLIO</h2>
-				<h3>Here's some stuff I recently made.</h3>
-			</header>
+          <div class="portfolio-item">
+            <figure>
+              <a class="portfolio-image" href="https://inadinerodriguez.github.io/guess-the-word/" target="_blank"><img src="img/wordgame.jpg" alt="guess the word game app"></a>
+            </figure>
+            <h4>GUESS THE WORD GAME</h4>
+            <p class="project-description">Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+            <p><span>SKILLS: </span>JavaScript</p>
+            <p><span>TOOLS: </span>JSON, GitHub Pages</p>
+            <a class="project-button" href="https://inadinerodriguez.github.io/guess-the-word/" target="_blank">LIVE PAGE</a>
+          </div>
 
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://jyt0ov.csb.app/" target="_blank" class="image featured"><img
-								src="images/stickynotesapp.jpg" alt="sticky notes app" /></a>
-						<h3>STICKY NOTES APP</h3>
-						<p>An interactive app that will let users create “sticky notes” on their computer to keep track
-							of to-do items. Uses multiple components to build the classic sticky note UI with the
-							ability to add, edit, delete and search for notes.</p>
-						<p><strong>SKILLS:</strong> React, JSX, Components, Props, State
-						<p>
-						<p><strong>TOOLS:</strong> CodeSandbox</p>
-						<a href="https://jyt0ov.csb.app/" target="_blank" class="button small scrolly">LIVE PAGE
-							LINK</a>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://inadinerodriguez.github.io/github-repo-gallery/ " target="_blank"
-							class="image featured"><img src="images/githubrepo.jpg" alt="github repos gallery" /></a>
-						<h3>GITHUB REPO GALLERY</h3>
-						<p>Uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos.
-							Visitors to the site can click on the repos to see more details and a link to the repo.</p>
-						<p><strong>SKILLS:</strong> JavaScript
-						<p>
-						<p><strong>TOOLS:</strong> RestAPI, GitHub Pages</p>
-						<a href="https://inadinerodriguez.github.io/github-repo-gallery/ " target="_blank"
-							class="button small scrolly">LIVE PAGE LINK</a>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://inadinerodriguez.github.io/guess-the-word/" target="_blank"
-							class="image featured"><img src="images/wordgame.jpg" alt="guess the word game app" /></a>
-						<h3>GUESS THE WORD GAME</h3>
-						<p>Players guess the word by entering one letter at a time. If the player guesses all the
-							letters correctly before they use up their allotted guesses, they win!</p>
-						<p><strong>SKILLS:</strong> JavaScript
-						<p>
-						<p><strong>TOOLS:</strong> JSON, GitHub Pages</p>
-						<a href="https://inadinerodriguez.github.io/guess-the-word/" target="_blank"
-							class="button small scrolly">LIVE PAGE LINK</a>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://inadinerodriguez.github.io/unplugged/ " target="_blank"
-							class="image featured"><img src="images/unplugged.jpg" alt="Unplugged website" /></a>
-						<h3>UNPLUGGED</h3>
-						<p>A multi-page responsive website coded with Flexbox. This versatile design has several
-							sections, including a Cards design pattern, that can be repurposed for different sites.</p>
-						<p><strong>SKILLS:</strong> HTML, CSS, Flexbox
-						<p>
-						<p><strong>TOOLS:</strong> Photoshop, Chrome Dev Tools, GitHub Pages</p>
-						<a href="https://inadinerodriguez.github.io/unplugged/ " target="_blank"
-							class="button small scrolly">LIVE PAGE LINK</a>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://inadinerodriguez.github.io/rogue-pickings/ " target="_blank"
-							class="image featured"><img src="images/rouge.jpg" alt="rogue pickings websites" /></a>
-						<h3>ROGUE PICKINGS</h3>
-						<p>A simple homepage perfect for a pop-up restaurant or food truck. Originally a static website,
-							I converted it into a responsive design using Flexbox.</p>
-						<p><strong>SKILLS:</strong> HTML, CSS, Flexbox
-						<p>
-						<p><strong>TOOLS:</strong> Photoshop, Chrome Dev Tools, GitHub Pages</p>
-						<a href="https://inadinerodriguez.github.io/rogue-pickings/ " target="_blank"
-							class="button small scrolly">LIVE PAGE LINK</a>
-					</article>
-				</div>
-			</div>
-		</div>
-	</article>
+          <div class="portfolio-item">
+            <figure>
+              <a class="portfolio-image" href="https://inadinerodriguez.github.io/unplugged/ " target="_blank"><img src="img/unplugged.jpg" alt="Unplugged website"></a>
+            </figure>
+            <h4>UNPLUGGED</h4>
+            <p class="project-description">A multi-page responsive website coded with Flexbox. This versatile design has several sections, including a Cards design pattern, that can be repurposed for different sites.</p>
+            <p><span>SKILLS: </span>HTML, CSS, Flexbox</p>
+            <p><span>TOOLS: </span>Photoshop, Chrome Dev Tools, GitHub Pages</p>
+            <a class="project-button" href="https://inadinerodriguez.github.io/unplugged/ " target="_blank">LIVE PAGE</a>
+          </div>
 
-	<!-- SKILLS -->
-	<article id="skills" class="wrapper style2">
-		<div class="container">
-			<header>
-				<h2>SKILLS</h2>
-				<h3>Developer Skills & Tech STACK</h3>
-			</header>
-			<div class="row aln-center">
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>HTML & CSS</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>JAVASCRIPT</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>REACT</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>RESPONSIVE WEB DEVELOPMENT</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>WORDPRESS</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>GIT & GITHUB</h3>
-					</section>
-				</div>
+          <div class="portfolio-item">
+            <figure>
+              <a class="portfolio-image" href="https://inadinerodriguez.github.io/rogue-pickings/ " target="_blank"><img src="img/rouge.jpg" alt="rogue pickings websites"></a>
+            </figure>
+            <h4>ROGUE PICKINGS</h4>
+            <p class="project-description">A simple homepage perfect for a pop-up restaurant or food truck. Originally a static website, I converted it into a responsive design using Flexbox.</p>
+            <p><span>SKILLS: </span>HTML, CSS, Flexbox</p>
+            <p><span>TOOLS: </span>Photoshop, Chrome Dev Tools, GitHub Pages</p>
+            <a class="project-button" href="https://inadinerodriguez.github.io/rogue-pickings/ " target="_blank">LIVE PAGE</a>
+            </div>
+        </div> <!-- portfolio wrapper ends -->
+      </div>  <!-- content wrapper ends -->
+    </section>
 
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>CHROME DEV TOOLS</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>GITHUB PAGES</h3>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<h3>ADOBE CREATIVE SUITE</h3>
-					</section>
-				</div>
+    <section id="skills">
+      <div class="content-wrapper">
+        <h3 class="skills-header">SKILLS</h3>
+        <h4>Developer Skills</h4>
+        <div class="skills-wrapper">
+          <p class="skill">HTML and CSS</p>
+          <p class="skill">JavaScript</p>
+          <p class="skill">React</p>
+          <p class="skill">Responsive web development</p>
+          <p class="skill">WordPress</p>
+          <p class="skill">Git and GitHub</p>
+        </div>
+        <div class="tech-wrapper">
+          <h4>Tech Stack</h4>
+          <p class="tool">Chrome DevTools</p>
+          <p class="tool">GitHub Pages</p>
+          <p class="tool">Adobe Creative Suite</p>
+        </div>
+      </div> <!-- skills content wrapper ends -->
+    </section>
+  </article>
 
-			</div>
-		</div>
-	</article>
+  <section id="about">
+    <div class="content-wrapper">
+      <div class="about-wrapper">
+          <figure>
+            <img src="img/profile-pic.jpg" alt="" id="about-img">
+          </figure>
+          <div class="about-content-wrapper">
+            <div class="about-info">
+              <h3>Hey, I'm Nadine Rodriguez.</h3>
+              <h4>I'm a passionate front-end software developer.</h4>
+              <p class="about-text">I’ve always had an interest in software development. My dad and brother are both software engineers. I loved listening to them talk about all the cool projects they were involved in. I dipped my toes into it when I created a website for a friend that started her own business. Creating it was so much fun and I loved her reaction to the site. I finally decided to take the leap and learn to code and I’ve never looked back. When I’m not coding, I'm playing with my pups, creating digital art in Procreate, or hiking a mountain.</p><br>
+            <p class="about-text"><span>Can't wait to work with you!</span></p>
+        </div>
+        </div>
+      </div>
+    </div> <!-- about content wrapper ends -->
+  </section>
+  </main> <!-- main wrapper ends -->
 
-	<!-- About Me -->
-	<article id="about" class="wrapper style4">
-		<div class="container medium">
-			<header>
-				<div class="col-4 col-5-large col-12-medium">
-					<span class="image about"><img src="images/profile-pic.jpg" alt="nadine profile picture" />
-					</span>
-				</div>
-				<h2>Hey, I'm Nadine Rodriguez.</h2>
-				<h3>I'm a passionate front-end software developer.</h3>
-				<p>I’ve always had an interest in software development. My dad and brother are both software engineers.
-					I loved listening to them talk about all the cool projects they were involved in.</p><br>
-				<p>I dipped my toes into it when I created a website for a friend that started her own business.
-					Creating it was so much fun and I loved her reaction to the site. I finally decided to take the leap
-					and learn to code and I’ve never looked back. When I’m not coding, I'm playing with my pups,
-					creating digital art in Procreate, or hiking a mountain.</p><br>
-				<p><strong>Can't wait to work with you!</strong></p>
-			</header>
-		</div>
-	</article>
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Have me make stuff for you.</h3>
+      <p>Let's Connect!</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h4 class="contact-title">Hire Me</h4>
+          <p><a class="email" href="mailto:inadinerod@gmail.com">inadinerod@gmail.com</a></p>
+        </div>  
+        <div class="contact-info social">
+          <h4 class="contact-title">Follow Me</h4>
+          <ul class="social-icons">
+            <li><a href="https://www.linkedin.com/in/inadinerodriguez/ " target="_blank"><i class="icon brands fab fa-linkedin"></i></a>
+            </li>
+            <li><a href="https://twitter.com/inadinerod" target="_blank"><i class="icon brands fab fa-twitter"></i></a>
+            </li>
+            <li><a href="https://github.com/inadinerodriguez " target="_blank"><i class="icon brands fa-brands fa-square-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+      <p class="copyright">&copy;
+        <script>document.write(new Date().getFullYear())</script> | Nadine Rodriguez
+      </p>
+    </div> <!-- footer content-wrapper ends -->
+  </footer>
 
 
-	<!-- Contact -->
-	<article id="contact" class="wrapper style5">
-		<div class="container medium">
-			<header>
-				<h2>Have me make stuff for you.</h2>
-				<p>Let's Connect!</p>
-			</header>
-			<div class="row">
-				<div class="col-12">
-					<div class="row">
-						<div class="col-6-xlarge  col-12 col-6-small ">
-							<h3>Hire Me</h3>
-							<p>inadinerod@gmail.com</p>
-						</div>
-						<div class="col-12 col-6-xlarge col-6-small">
-							<h3>Follow Me</h3>
-							<ul class="social">
-								<li><a href="https://www.linkedin.com/in/inadinerodriguez/ " target="_blank"
-										class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://twitter.com/inadinerod" target="_blank"
-										class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/inadinerodriguez " target="_blank"
-										class="icon brands fa-github"><span class="label">Github</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<footer>
-				<ul id="copyright">
-					<li>&copy; Nadine Rodriguez. All rights reserved.</li>
-				</ul>
-			</footer>
-		</div>
-	</article>
 
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-	<script src="assets/js/plugins.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
 
 </body>
