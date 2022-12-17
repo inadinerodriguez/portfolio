@@ -626,7 +626,7 @@ ul.social-icons li i:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width > 768px) {
+@media only screen and (min-width: 768px) {
     /* Tablet Styles */
 
     /* General Styles */
@@ -826,7 +826,7 @@ ul.social-icons li i:hover {
     }
 }
 
-@media only screen and (min-width > 1024px) {
+@media only screen and (min-width: 1024px) {
 
     .content-wrapper {
         max-width: 900px;
@@ -837,7 +837,7 @@ ul.social-icons li i:hover {
     }
 }
 
-@media only screen and (min-width > 1200px) {
+@media only screen and (min-width: 1200px) {
 
     /* Desktop styles */
 
